@@ -14,7 +14,7 @@ function Forecast({currentWeather}){
                             let tempMin = currentWeather.daily.temperature_2m_min[index];
                             
                             return(
-                                <div className="forecast-card">
+                                <div key={index} className="forecast-card">
                                     <h5 id="forecast-day" className="text-center">{formatWeekday(date)}</h5>
                                     <p id="forecast-date" className="text-center">{formatOnlyDate(date)}</p>
                                     <span id="forecast-icon"></span>

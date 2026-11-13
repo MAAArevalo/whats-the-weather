@@ -7,7 +7,7 @@ function Sidebar(){
                 <a href="">Home</a>
                 <a href="">Search</a>
                 <a href="">Favorites</a>
-                <a href="">Se</a>
+                <a href="">Search</a>
             </nav>
         </aside>
         </>
